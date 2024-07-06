@@ -2,7 +2,7 @@ import React from 'react';
 import logo from './logo.svg';
 import './App.css';
 
-// Image Component
+
 const ImageComponent = () => {
   return (
     <div>
@@ -11,7 +11,7 @@ const ImageComponent = () => {
   );
 };
 
-// Heading Components
+
 function Heading() {
   return <h1>Bavanuja Kamalakkannan</h1>;
 }
@@ -24,8 +24,7 @@ function Heading3() {
   return <h3>About</h3>;
 }
 
-// Body Component
-function Body() {
+function Para() {
   return (
     <p>
       I am a motivated and adaptable frontend developer with a strong foundation in HTML, CSS, and JavaScript. Currently, I am enhancing my skills through a comprehensive frontend development course. I am passionate about creating intuitive and engaging user experiences and am eager to contribute my expertise to a dynamic team. With a keen eye for detail and a commitment to continuous learning, I am confident in my ability to deliver high-quality, innovative solutions.
@@ -33,12 +32,14 @@ function Body() {
   );
 }
 
-// Skills Heading Component
+
 function Heading4() {
-  return <h4>Skills</h4>;
+  return (
+    <h3>Skills</h3>
+  );
 }
 
-// Skills List Component
+
 function List1() {
   return (
     <ul>
@@ -50,8 +51,82 @@ function List1() {
     </ul>
   );
 }
-
-// Main App Component
+function Heading5() {
+  return (
+    <h3>Experiences</h3>
+  );
+}
+function Heading6() {
+  return (
+    <h4>Former Intern at Yarl IT Hub</h4>
+  );
+}
+function Para1() {
+  return (
+    <p> I have done a volunteer based internship
+    here. It inspired to improve the
+    communicative and leadership skills and
+    I involved hugely in Enterpreneurship.</p>
+  );
+}
+function Heading7() {
+  return (
+    <h3>Education</h3>
+  );
+}
+function Heading8() {
+  return (
+    <h4>UGC-2009-2022</h4>
+  );
+}
+function Para2() {
+  return (
+    <p>  I have completed my Advanced
+    Level in maths stream with <b>very
+    good pass </b>for mathematics and
+    credit pass for <b>physics & IT</b></p>
+  );
+}
+function Heading9() {
+  return (
+    <h4>University of Uva Wellessa-Computer Science & Technology</h4>
+  );
+}
+function Para3() {
+  return (
+    <p>  I am currently pursuing my
+    Bachelor’s Degree programme
+    here </p>
+  );
+}
+function Heading10() {
+  return (
+    <h3>Language</h3>
+  );
+}
+function List2() {
+  return (
+    <ul>
+      <li>English</li>
+      <li>Tamil</li>
+      <li>Sinhala</li>
+    </ul>
+  );
+}
+function Heading11() {
+  return (
+    <h3>Contacts</h3>
+  );
+}
+function List3() {
+  return (
+    <ol>
+      <li>bbavanuja@gmail.com</li>
+      <li>0772040616</li>
+      <li>Sanguveli North Manipay</li>
+    </ol>
+  );
+}
 function App() {
   return (
     <div>
@@ -59,9 +134,21 @@ function App() {
       <Heading />
       <Heading2 />
       <Heading3 />
-      <Body />
+      <Para />
       <Heading4 />
       <List1 />
+      <Heading5 />
+      <Heading6 />
+      <Para1 />
+      <Heading7 />
+      <Heading8 />
+      <Para2 />
+      <Heading9 />
+      <Para3 />
+      <Heading10 />
+      <List2 />
+      <Heading11 />
+      <List3 />
     </div>
   );
 }
