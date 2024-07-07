@@ -1,3 +1,5 @@
+import React from 'react';
+
 function Promo() {
     return (
         <div className="promo-section">
