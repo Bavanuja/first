@@ -6,7 +6,7 @@ import './App.css';
 const ImageComponent = () => {
   return (
     <div>
-      <img src="C:\Users\kbanu\OneDrive\Documents\B2.jpg" alt="Bavanuja Kamalakkannan" width="300" height="200" />
+      <img src="B2.jpg" alt="Bavanuja Kamalakkannan" width="300" height="400" />
     </div>
   );
 };
