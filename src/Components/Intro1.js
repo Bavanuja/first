@@ -1,5 +1,5 @@
 import React from 'react';
-
+import './Intro1.css';
 function Intro1() {
         return (
             <div className="blog-post-intro">

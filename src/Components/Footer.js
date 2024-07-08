@@ -1,4 +1,5 @@
 import React from 'react';
+import './Footer.css';  // Adjust the path according to your project structure
 
 function Footer() {
     return (
@@ -6,6 +7,6 @@ function Footer() {
             <p>Made with love by Myself</p>
         </div>
     );
-};
+}
 
 export default Footer;

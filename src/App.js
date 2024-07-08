@@ -7,10 +7,11 @@ import Intro2 from './Components/Intro2';
 import Intro3 from './Components/Intro3';
 import Footer from './Components/Footer';
 
+
 function App() {
-  return (
-    <div>
-      <Nav />
+   return (
+    <div className="App">
+      <Nav  />
       <Promo />
       <Intro1 />
       <Intro2 />
