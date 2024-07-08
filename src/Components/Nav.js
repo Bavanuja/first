@@ -2,15 +2,19 @@ import React from 'react';
 
 import './Nav.css';  // Adjust the path according to your project structure
 
-function Nav() {
+function Nav(props) {
+    console.log(props)
     return (
         <nav className="main-nav">
-            <ul>
-                <li><a href="#home">Home</a></li>
-                <li><a href="#articles">Articles</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#contact">Contact</a></li>
+           <div className="greeting">Hello, {props.name},{props.color}</div>
+           
+             <ul className="main-nav-menu">
+             <li className="navbar-item"><a href="#home">{props.first}</a></li>
+             <li className="navbar-item"><a href="#articles">{props.second}</a></li>
+             <li className="navbar-item"><a href="#about">{props.third}</a></li>
+             <li className="navbar-item"><a href="#contact">{props.fourth}</a></li>
             </ul>
+            
         </nav>
     );
 }
